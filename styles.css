@@ -1,0 +1,41 @@
+#message {
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.nextRelease{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: centers;
+    width: 400px;
+}
+
+#nextRelease-description {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#nextReleasePoster {
+width: 100px;
+border-radius: 5px;
+}
+#nextReleaseName {
+ font-size: 20px;
+ font-weight: 600;
+ padding: 5px 15px;
+ background-color: pink;
+ color: black;
+ border-radius: 5px;
+}
+#nextReleaseDate {
+font-size: 14px;
+}
+#nextReleaseDate::first-word{
+    font-weight: 600;
+}
+
+#nextReleaseSynopsis {
+font-size: 14px;
+}
